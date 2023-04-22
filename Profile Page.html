@@ -88,42 +88,7 @@
       box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
     }
 
-    .achievements {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding: 40px 80px;
-    }
-
-    .achievements .work {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 0 40px;
-    }
-
-    .achievements .work i {
-      width: fit-content;
-      font-size: 50px;
-      color: #333333;
-      border-radius: 50%;
-      border: 2px solid #333333;
-      padding: 12px;
-    }
-
-    .achievements .work .work-heading {
-      font-size: 20px;
-      color: #333333;
-      text-transform: uppercase;
-      margin: 10px 0;
-    }
-
-    .achievements .work .work-text {
-      font-size: 15px;
-      color: #585858;
-      margin: 10px 0;
-    }
+    
 
     .about-me {
       display: flex;
@@ -208,38 +173,64 @@
     </nav>
   </header>
   <main>
-    <div class="intro">
-      <h1>Transformation starts here</h1>
-      <p>We’re in it for good, driving positive change for the benefit of all.</p>
-      <button>Learn More</button>
-    </div>
-    <div class="achievements">
-      <div class="work">
-        <i class="fas fa-atom"></i>
-        <p class="work-heading">Projects</p>
-        <p class="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
-      </div>
-      <div class="work">
-        <i class="fas fa-skiing"></i>
-        <p class="work-heading">Skills</p>
-        <p class="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>
-      </div>
-      <div class="work">
-        <i class="fas fa-ethernet"></i>
-        <p class="work-heading">Network</p>
-        <p class="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
-      </div>
-    </div>
-    <div class="about-me">
-      <div class="about-me-text">
-        <h2>About Us</h2>
-        <p>Koderz Consultant is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 50 years.</p>
-      </div>
-      
-    </div>
-  </main>
+    <!DOCTYPE html>
+    <html lang="en">
+        
+    <head>
+        <link rel="stylesheet" href="./style.css" >
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title >Profile</title>
+        <style>
+            body{
+                background-image: url(Logo3.jpg);
+                background-size:auto;
+                background-repeat: no-repeat;
+                background-position: center;
+                backface-visibility: visible;
+                opacity:20;
+            }
+            input[type=submit], input[type=reset] {
+                background-color: #1a9ab1;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+              }
+              
+        </style>
+    
+    </head>
+    <body>
+        
+       
+       <form>
+           <h1 style="color:Tomato;"><center> Profile </center></h1>
+           <hr>
+           <h2>Koderz Consultant</h2>
+           <fieldset>
+               <legend>User Details</legend>
+    
+           <p>Name- <input type="text" name="Name" required></p>
+          
+           <p>Email- <input type="email" name="Email" id="email"></p>
+           <p> 
+               Pincode- <input type="number" name="pincode" id="pincode">
+             
+           </p>  
+           <p> Mobile Number- <input type="number" name="mobile number" id="mobile number"></p>  
+           <p> Password - <input type="password" name="password" id="password"></p>
+           <p> Gender - <input type="Gender" name="gender" id="gender"></p>
+          
+           </fieldset>
+       </form>
+    
+    </main>
   <footer class="footer">
-    <div class="copy">&copy; 2022 Developer</div>
+    <div class="copy">&copy; 2023 Koderz Consultant</div>
     <div class="bottom-links">
       <div class="links">
         <span>More Info</span>
