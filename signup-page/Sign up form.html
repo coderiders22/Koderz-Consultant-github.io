@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <link rel="stylesheet" href="./style.css" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Sign Up</title>
+    <style>
+        body{
+            background-image: url(Logo3.jpg);
+            background-size:auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            backface-visibility: visible;
+            opacity:20;
+        }
+        input[type=submit], input[type=reset] {
+            background-color: #1a9ab1;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
+          
+    </style>
+
+</head>
+<body>
+    
+   
+   <form>
+       <h1 style="color:Tomato;"><center> Sign Up </center></h1>
+       <hr>
+       <h2>Koderz Consultant</h2>
+       <p>Required fields are followed by *</p>
+       <fieldset>
+           <legend>User Details</legend>
+
+       <p>Name*- <input type="text" name="Name" required></p>
+       <p>
+           <fieldset>
+               <legend>Gender*</legend>
+           
+           Male <input type="radio" name="Gender" id="Male" required>
+           Female <input type="radio" name="Gender" id="female" required>
+        </fieldset>
+       </p>
+       <p>Email- <input type="email" name="Email" id="email"></p>
+       <p> 
+           Pincode- <input type="number" name="pincode" id="pincode">
+         
+       </p>  
+       <p> Mobile Number- <input type="number" name="mobile number" id="mobile number"></p>  
+       <p> Password - <input type="password" name="password" id="password"></p>
+       <input type="submit" value="Submit">
+       <input type="reset" value="Reset">
+      
+       </fieldset>
+   </form>
+
+</body>
+</html>
+
